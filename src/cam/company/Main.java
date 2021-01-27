@@ -13,6 +13,7 @@ public class Main {
         int number0 = 1;
         int number1 = 2;
 
+
         Player a = new Player(number0);
         Player b = new Player(number1);
         Player[] players = new Player[2];
