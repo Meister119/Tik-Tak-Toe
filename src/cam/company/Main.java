@@ -21,7 +21,7 @@ public class Main {
         players[1] = b;
 
         while (winner == -1) {
-            printBoard(board);-
+            printBoard(board);
             int turnField = players[turn].getTurn();
             if (players[turn].validateTurn(board, turnField)) {
                 board[turnField] = players[turn].number;
